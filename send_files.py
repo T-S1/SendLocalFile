@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "<html><h3>実習データ</h3><a href='/export/share_data'>ダウンロード</a></html>"
+    return "<html><h3>データ</h3><a href='/export/share_data'>ダウンロード</a></html>"
 
 
 @app.route("/export/share_data")
